@@ -19,4 +19,4 @@ def read():
 def home():
     return static_file("index.html", root=".")
 
-run(host='localhost', port=8080)
+run(host='localhost', port=12345)
